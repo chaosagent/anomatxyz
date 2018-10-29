@@ -78,12 +78,57 @@
             color: #fdf6e3;
         }
 
+        .black_link:hover {
+            color: #657b83;
+        }
+
+        .red_link:hover {
+            color: #dc322f;
+        }
+
+        .green_link:hover {
+            color: #859900;
+        }
+
+        .yellow_link:hover {
+            color: #b58900;
+        }
+
+        .blue_link:hover {
+            color: #268bd2;
+        }
+
+        .magenta_link:hover {
+            color: #6c71c4;
+        }
+
+        .cyan_link:hover {
+            color: #2aa198;
+        }
+
+        .white_link:hover {
+            color: #fdf6e3;
+        }
+
         #banner {
-            text-align: center;
             font-size: 10em;
-            font-family: Inconsolata, monospace;
-            font-weight: normal;
             margin-top: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        #menu {
+            font-size: 1.5em;
+        }
+
+        #eleven {
+            text-align: center;
+            width: 75%;
+            font-size: 3em;
+            margin: 0.5em 0 1em 0;
+        }
+
+        #eleven tr td {
+            padding: 1em;
         }
 
         .plain_link {
@@ -91,12 +136,50 @@
             color: inherit;
         }
 
+        .text {
+            text-align: center;
+            font-family: Inconsolata, monospace;
+            font-weight: normal;
+        }
+
     </style>
 </head>
 <body>
-<div id="banner" class="color_green">
-    A N O M A L O U S <a href="#" class="plain_link">.</a>
+<div id="banner" class="color_green text">
+    A N O M λ L O U S <!--a href="#" class="plain_link green_link">.</a-->
 </div>
+<div id="menu" class="color_white text">
+    <a href="#" class="plain_link white_link">Blog</a> | <a href="#" class="plain_link white_link">Writeups</a> | <a href="#" class="plain_link white_link">CTFs</a> | <a href="#" class="plain_link white_link">About</a>
+</div>
+
+<!--center>
+    <table id="eleven">
+        <tr>
+            <td class="text color_red">
+                0x0b
+            </td>
+            <td class="text color_red_bright">
+                1 1
+            </td>
+            <td class="text color_red">
+                0o13
+            </td>
+        </tr>
+        <tr>
+            <td class="text color_red">
+                XI
+            </td>
+            <td class="text color_red">
+                0b1011
+            </td>
+            <td class="text color_red">
+                ~~
+            </td>
+        </tr>
+
+    </table>
+</center-->
+
 
 </body>
 </html>
